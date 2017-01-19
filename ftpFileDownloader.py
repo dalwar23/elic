@@ -2,13 +2,9 @@
 # ***************************************************
 # This program encrypts/decrypts data file/s.		*
 # Author: Md Dalwar Hossain Arif					*
-# E-mail: admin@pySource.org;dharif23@gmail.com		*
-# Website: www.pySource.org							*
-# Date:	29-Mar-2015									*
-# Time:	01:10 PM									*
-# Last Update: 29-03-2015 01:22 PM					*
+# E-mail: dalwar0143@gmail.com						*
+# Last Update: 18-03-2015 01:22 AM					*
 # Copyright: Md Dalwar Hossain Arif					*
-# License: GPL										*
 # ***************************************************
 
 # Import default libraries

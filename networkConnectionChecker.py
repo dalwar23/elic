@@ -1,14 +1,10 @@
 #!/usr/bin/python -tt
 # ***************************************************
-# This program encrypts/decrypts data file/s.		*
-# Author: Md Dalwar Hossain Arif					*
-# E-mail: admin@pySource.org;dharif23@gmail.com		*
-# Website: www.pySource.org							*
-# Date:	18-Mar-2015									*
-# Time:	01:20 AM									*
-# Last Update: 18-03-2015 01:21 AM					*
-# Copyright: Md Dalwar Hossain Arif					*
-# License: GPL										*
+# This program encrypts/decrypts data file/s.       *
+# Author: Md Dalwar Hossain Arif                    *
+# E-mail: dalwar0143@gmail.com                      *
+# Last Update: 18-03-2015 01:22 AM                  *
+# Copyright: Md Dalwar Hossain Arif                 *
 # ***************************************************
 
 # Import default libraries
