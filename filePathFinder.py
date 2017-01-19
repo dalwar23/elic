@@ -1,0 +1,44 @@
+#!/usr/bin/python -tt
+# ***************************************************
+# This program encrypts/decrypts data file/s.		*
+# Author: Md Dalwar Hossain Arif					*
+# E-mail: admin@pySource.org;dharif23@gmail.com		*
+# Website: www.pySource.org							*
+# Date:	17-Mar-2015									*
+# Time:	01:10 AM									*
+# Last Update: 18-03-2015 01:22 AM					*
+# Copyright: Md Dalwar Hossain Arif					*
+# License: GPL										*
+# ***************************************************
+
+# Import default libraries
+import os
+import sys
+
+# Define a function to find script directory path
+def findScriptDir():
+	scriptPath = os.path.realpath(__file__)
+	# Directory of this script and dependency files' directory
+	scriptDir = os.path.dirname(scriptPath)
+	return scriptDir
+# Define a function to find dependency files directory
+def findDepFilesDir():
+	pathSep = '/'
+	scriptDir = findScriptDir()
+	depFilesDir = scriptDir + pathSep + 'gpg' + pathSep
+	return depFilesDir
+# Define a function to find key files directory
+def findKeyFilesDir():
+	pathSep = '/'
+	scriptDir = findScriptDir()
+	keyFilesDir = scriptDir+pathSep+'keys'+pathSep
+	return keyFilesDir
+# Define a function to find message file directory
+def findMsgFilesDir():
+	pathSep = '/'
+	scriptDir = findScriptDir()
+	msgFilesDir = scriptDir+pathSep+'messages'+pathSep
+	return msgFilesDir
+# This is the standard boilerplate that calls the main() function
+if __name__ == '__main__':
+  main()
